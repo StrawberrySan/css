@@ -1,0 +1,10 @@
+#tb,tr,th,td{
+    border: 1px solid pink;<!--表格的边框必须在border后加上solid。 -->
+    text-align: center;<!-- 设置字体的位置 -->
+    background-color: gold;<!-- 设置背景颜色 -->
+}
+#tb{
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;<!--这里是合并边框 -->
+}
