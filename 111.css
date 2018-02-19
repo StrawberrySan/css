@@ -1,0 +1,17 @@
+#tb {
+    border-collapse: collapse;
+    width: 500px;
+}
+#tb td,#tb th{<!-- 带#则是id选择器 -->
+    border: 1px solid aqua;
+    padding: 5px;<!-- 这是一个内边距 -->
+}
+#tb th{
+    text-align: left;
+    background-color: aqua;
+    color: #ffed77;
+}
+#tb tr.alt td{<!-- 这里.alt是引用单个class派生选择器 -->
+    color:black;
+    background-color: #ffed77;
+}
